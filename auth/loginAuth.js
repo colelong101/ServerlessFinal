@@ -12,7 +12,7 @@ exports.handler = async (event) => {
 
     // Retrieve hashed password from DynamoDB based on the username
     const params = {
-      TableName: "YourUsersTable",
+      TableName: "users_table",
       Key: { username },
     };
 
